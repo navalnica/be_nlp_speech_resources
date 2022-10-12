@@ -1,4 +1,4 @@
-# Belarusian NLP and Speech processing resources
+# Belarusian NLP and Speech Processing resources
 
 This repository contains links to Belarusian Natural Language and Speech Processing resources and datasets.<br>
 
