@@ -35,7 +35,17 @@ Model comparisons grouped by dataset. TODO
 * [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts). CoquiAI implementation by Yurii Paniv (@robinhad). 
   Original repo & models were deleted - only fork is available now
 
+---
+
 # 🧍‍♀️🧍 Communities and platforms:
 * [corpus.by](https://www.corpus.by)
 * [ssrlab.by](https://ssrlab.by)
 * [bnkorpus.info](https://bnkorpus.info)
+* [Belarus](https://github.com/Belarus) organization on github
+* [nlproc.by](https://github.com/nlprocby) community on github
+
+---
+# 🦔 Unsorted
+
+* Universal dependencies dataset<br>
+  [Page](https://universaldependencies.org/treebanks/be_hse/index.html) and [repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
