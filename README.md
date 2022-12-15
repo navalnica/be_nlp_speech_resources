@@ -4,6 +4,10 @@ This repository contains links to Belarusian Natural Language and Speech Process
 
 It is inspired by similar project with Ukrainian Speech Processing resources: [egorsmkv/speech-recognition-uk](https://github.com/egorsmkv/speech-recognition-uk)
 
+### TODOs:
+* add detailed descriptions to each of list items
+* evaluate models on benchmarks and log their performance
+
 # 🎤 Speech-to-Text
 
 ## 💡 Implementations
@@ -32,7 +36,6 @@ Model comparisons grouped by dataset. TODO
 * [Common Voice](https://commonvoice.mozilla.org/en/datasets). Speech recognition dataset
 * ssrlab: TODO. Speech recognition dataset
 * Dataset from [knihi.com](https://knihi.com/none/Korpus_bielaruskaha_maulennia_dla_trenirouki_niejronnych_sietak_zip.html). TODO: what is the type of dataset?
-* [Эксперыментальны корпус беларускай мовы, ЭКБМ](https://github.com/poritski/YABC)
 
 ------
 
@@ -60,6 +63,13 @@ Model comparisons grouped by dataset. TODO
 ## Masked Language Modeling
 * [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
 
+## 📚 Datasets
+
+* [Эксперыментальны корпус беларускай мовы, ЭКБМ](https://github.com/poritski/YABC)
+* Universal dependencies dataset:
+  * [Page](https://universaldependencies.org/treebanks/be_hse/index.html)
+  * [GitHub Repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
+
 ---
 
 # 🧍‍♀️🧍 Communities and platforms:
@@ -71,6 +81,4 @@ Model comparisons grouped by dataset. TODO
 
 ---
 # 🦔 Unsorted
-
-* Universal dependencies dataset<br>
-  [Page](https://universaldependencies.org/treebanks/be_hse/index.html) and [repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
+* nothing for now
