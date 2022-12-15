@@ -60,14 +60,27 @@ Model comparisons grouped by dataset. TODO
 ## POS-tagging
 * [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos)
 * [stanfordnlp/stanza-be](https://huggingface.co/stanfordnlp/stanza-be)
-* [YABC_Tagger](https://github.com/poritski/YABC_Tagger). Trained on [Эксперыментальны корпус беларускай мовы](https://github.com/poritski/YABC)
+* [YABC_Tagger](https://github.com/poritski/YABC_Tagger). Rule-based POS-tagger and lemmatizer.<br>
+  Written in Perl. 
+  Uses [poritski/YABC](https://github.com/poritski/YABC) as a Grammar base (?)
+* [volchek/beltagger](https://github.com/volchek/beltagger).
+  An improved version of [YABC_Tagger](https://github.com/poritski/YABC_Tagger) rule-based POS-tagger and lemmatizer.<br>
+  Cross-platform, written in C++.<br>
+  Known issues:
+  * requires input data to be incoded in Windows-1251, does not support UTF-8;
+  * tagset is not fully-compatible with BNKorpus's tagset and grammar base
+  * grammar base used is not full enough. [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) is a better paradigms source but is not incorporated yet
+  * suffix table calculation script is not ported from Perl to C++
+  * code uses Boost libarary  
 
 ## Masked Language Modeling
 * [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
 
 ## 📝📚 Datasets
 
-* [Эксперыментальны корпус беларускай мовы, ЭКБМ](https://github.com/poritski/YABC)
+* [poritski/YABC](https://github.com/poritski/YABC) - Эксперыментальны корпус беларускай мовы, ЭКБМ
+* [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) - Grammar Database of Belarusian language
+* [tsimafeip/Translator](https://github.com/tsimafeip/Translator) - Dataset with russian-belarusian translation pairs
 * Universal dependencies dataset:
   * [Page](https://universaldependencies.org/treebanks/be_hse/index.html)
   * [GitHub Repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
