@@ -12,7 +12,16 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
   * [yks72p/stt_be](https://github.com/yks72p/stt_be). Used Common Voice 8 dataset to train acoustic & language models.
 
 * whisper:
-  * [openai/whisper](https://github.com/openai/whisper).
+  * original [openai/whisper](https://github.com/openai/whisper) models
+  * Whisper models fine-tuned on Belerusian Common Voice 11 dataset:
+    * [Whisper Small](https://huggingface.co/ales/whisper-small-belarusian)
+    
+* Nvidia NeMo models:
+  * [nvidia/stt_be_conformer_ctc_large](https://huggingface.co/nvidia/stt_be_conformer_ctc_large)
+  * [nvidia/stt_be_conformer_transducer_large](https://huggingface.co/nvidia/stt_be_conformer_transducer_large)
+ 
+* ESPnet:
+  * [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm)
 
 ## 📊 Benchmarks
 
@@ -34,6 +43,16 @@ Model comparisons grouped by dataset. TODO
   Demo [page](https://nikuchin.fun/tts) and [code](https://github.com/yks72p/bel-tts-server).
 * [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts). CoquiAI implementation by Yurii Paniv (@robinhad). 
   Original repo & models were deleted - only fork is available now
+
+---
+
+# 📝 NLP
+
+## POS-tagging
+* [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos)
+
+## Masked Language Modeling
+* [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
 
 ---
 
