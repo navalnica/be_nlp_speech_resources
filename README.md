@@ -58,6 +58,7 @@ Model comparisons grouped by dataset. TODO
 
 ## POS-tagging
 * [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos)
+* [stanfordnlp/stanza-be](https://huggingface.co/stanfordnlp/stanza-be)
 * [YABC_Tagger](https://github.com/poritski/YABC_Tagger). Trained on [Эксперыментальны корпус беларускай мовы](https://github.com/poritski/YABC)
 
 ## Masked Language Modeling
