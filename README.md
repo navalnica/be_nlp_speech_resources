@@ -13,7 +13,7 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
 
 * whisper:
   * original [openai/whisper](https://github.com/openai/whisper) models
-  * Whisper models fine-tuned on Belerusian Common Voice 11 dataset:
+  * Whisper models fine-tuned on Belarusian Common Voice 11 dataset:
     * [Whisper Small](https://huggingface.co/ales/whisper-small-belarusian)
     
 * Nvidia NeMo models:
@@ -39,10 +39,14 @@ Model comparisons grouped by dataset. TODO
 
 ## 💡 Implementations
 
-* [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts). CoquiAI implementation.<br>
-  Demo [page](https://nikuchin.fun/tts) and [code](https://github.com/yks72p/bel-tts-server).
-* [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts). CoquiAI implementation by Yurii Paniv (@robinhad). 
-  Original repo & models were deleted - only fork is available now
+* CoquiAI implementations
+  * [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts). GlowTTS + HifiGan
+    * [Code](https://github.com/jhlfrfufyfn/bel-tts). 
+    * [Model](https://huggingface.co/jhlfrfufyfn/bel-tts)
+    * [Demo on HuggingFace](https://huggingface.co/spaces/jhlfrfufyfn/bel-tts)
+    * [Demo on a custom web-page](https://nikuchin.fun/tts). The source code for the demo page: [here](https://github.com/jhlfrfufyfn/bel-tts-server)
+  * [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts). CoquiAI implementation by Yurii Paniv (@robinhad).<br>
+    Original repo & models were deleted - only fork is available now
 
 ---
 
