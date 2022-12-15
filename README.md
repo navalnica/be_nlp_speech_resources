@@ -32,6 +32,7 @@ Model comparisons grouped by dataset. TODO
 * [Common Voice](https://commonvoice.mozilla.org/en/datasets). Speech recognition dataset
 * ssrlab: TODO. Speech recognition dataset
 * Dataset from [knihi.com](https://knihi.com/none/Korpus_bielaruskaha_maulennia_dla_trenirouki_niejronnych_sietak_zip.html). TODO: what is the type of dataset?
+* [Эксперыментальны корпус беларускай мовы, ЭКБМ](https://github.com/poritski/YABC)
 
 ------
 
@@ -54,6 +55,7 @@ Model comparisons grouped by dataset. TODO
 
 ## POS-tagging
 * [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos)
+* [YABC_Tagger](https://github.com/poritski/YABC_Tagger). Trained on [Эксперыментальны корпус беларускай мовы](https://github.com/poritski/YABC)
 
 ## Masked Language Modeling
 * [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
