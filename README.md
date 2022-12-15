@@ -8,9 +8,9 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
 * add detailed descriptions to each of list items
 * evaluate models on benchmarks and log their performance
 
-# 🎤 Speech-to-Text
+# 🎙 Speech-to-Text
 
-## 💡 Implementations
+## 🎙💡 Implementations
 
 * wav2vec2:
   * [yks72p/stt_be](https://github.com/yks72p/stt_be). Used Common Voice 8 dataset to train acoustic & language models.
@@ -27,25 +27,26 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
 * ESPnet:
   * [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm)
 
-## 📊 Benchmarks
+## 🎙📊 Benchmarks
 
 Model comparisons grouped by dataset. TODO
 
-## 📚 Datasets
+## 🎙📚 Datasets
 
 * [Common Voice](https://commonvoice.mozilla.org/en/datasets). Speech recognition dataset
-* ssrlab: TODO. Speech recognition dataset
 * Dataset from [knihi.com](https://knihi.com/none/Korpus_bielaruskaha_maulennia_dla_trenirouki_niejronnych_sietak_zip.html). TODO: what is the type of dataset?
+* [google/fleurs](https://huggingface.co/datasets/google/fleurs/viewer/be_by/train)
+* ssrlab: TODO. Speech recognition dataset
 
 ------
 
 # 📢 Text-to-Speech
 
-## 💡 Implementations
+## 📢💡 Implementations
 
 * CoquiAI implementations
   * [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts). GlowTTS + HifiGan
-    * [Code](https://github.com/jhlfrfufyfn/bel-tts). 
+    * [Code](https://github.com/jhlfrfufyfn/bel-tts)
     * [Model](https://huggingface.co/jhlfrfufyfn/bel-tts)
     * [Demo on HuggingFace](https://huggingface.co/spaces/jhlfrfufyfn/bel-tts)
     * [Demo on a custom web-page](https://nikuchin.fun/tts). The source code for the demo page: [here](https://github.com/jhlfrfufyfn/bel-tts-server)
@@ -64,12 +65,13 @@ Model comparisons grouped by dataset. TODO
 ## Masked Language Modeling
 * [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
 
-## 📚 Datasets
+## 📝📚 Datasets
 
 * [Эксперыментальны корпус беларускай мовы, ЭКБМ](https://github.com/poritski/YABC)
 * Universal dependencies dataset:
   * [Page](https://universaldependencies.org/treebanks/be_hse/index.html)
   * [GitHub Repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
+* [Tatoeba Belarusian sentences](https://tatoeba.org/en/sentences/show_all_in/bel/none)
 
 ---
 
