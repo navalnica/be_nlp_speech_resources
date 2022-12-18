@@ -68,11 +68,11 @@ Model comparisons grouped by dataset. TODO
 ## POS-tagging
 * [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos)
 * [stanfordnlp/stanza-be](https://huggingface.co/stanfordnlp/stanza-be)
-* [YABC_Tagger](https://github.com/poritski/YABC_Tagger). Rule-based POS-tagger and lemmatizer.<br>
+* [poritski/YABC_Tagger](https://github.com/poritski/YABC_Tagger). Rule-based POS-tagger and lemmatizer.<br>
   Written in Perl. 
   Uses [poritski/YABC](https://github.com/poritski/YABC) as a Grammar base (?)
 * [volchek/beltagger](https://github.com/volchek/beltagger).
-  An improved version of [YABC_Tagger](https://github.com/poritski/YABC_Tagger) rule-based POS-tagger and lemmatizer.<br>
+  An improved version of [poritski/YABC_Tagger](https://github.com/poritski/YABC_Tagger) rule-based POS-tagger and lemmatizer.<br>
   Cross-platform, written in C++.<br>
   Known issues:
   * requires input data to be incoded in Windows-1251, does not support UTF-8;
