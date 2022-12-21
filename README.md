@@ -15,7 +15,7 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
 * wav2vec2 trained on Common Voice 8 + kenlm language model trained on Common Voice 8:
   * Model: [ales/wav2vec2-cv-be](https://huggingface.co/ales/wav2vec2-cv-be)
   * Demo: [ales/wav2vec2-cv-be-lm](https://huggingface.co/spaces/ales/wav2vec2-cv-be-lm)
-  * Code: [yks72p/stt_be](https://github.com/yks72p/stt_be)
+  * Code: [yks72p/wav2vec2-belarusian](https://github.com/yks72p/wav2vec2-belarusian)
 
 * whisper:
   * original [openai/whisper](https://github.com/openai/whisper) models
