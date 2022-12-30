@@ -86,6 +86,7 @@ Model comparisons grouped by dataset. TODO
 
 ## 📝📚 Datasets
 
+* [oscar](https://huggingface.co/datasets/oscar)
 * [poritski/YABC](https://github.com/poritski/YABC) - Эксперыментальны корпус беларускай мовы, ЭКБМ
 * [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) - Grammar Database of Belarusian language
 * [tsimafeip/Translator](https://github.com/tsimafeip/Translator) - Dataset with russian-belarusian translation pairs
