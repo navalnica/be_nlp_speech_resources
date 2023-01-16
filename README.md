@@ -80,6 +80,9 @@ Model comparisons grouped by dataset. TODO
   * grammar base used is not full enough. [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) is a better paradigms source but is not incorporated yet
   * suffix table calculation script is not ported from Perl to C++
   * code uses Boost libarary  
+  
+## Other
+* [pkasila/bel-sklony](https://github.com/pkasila/bel-sklony) - web page with Belarusian nouns declension. Demo: [sklony.pkasila.net](https://sklony.pkasila.net/)
 
 ## Masked Language Modeling
 * [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
