@@ -15,7 +15,7 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
 * wav2vec2 trained on Common Voice 8 + kenlm language model trained on Common Voice 8:
   * Model: [ales/wav2vec2-cv-be](https://huggingface.co/ales/wav2vec2-cv-be)
   * Demo: [ales/wav2vec2-cv-be-lm](https://huggingface.co/spaces/ales/wav2vec2-cv-be-lm)
-  * Code: [yks72p/wav2vec2-belarusian](https://github.com/yks72p/wav2vec2-belarusian)
+  * Code: [navalnica/wav2vec2-belarusian](https://github.com/navalnica/wav2vec2-belarusian)
 
 * whisper:
   * original [openai/whisper](https://github.com/openai/whisper) models
@@ -23,10 +23,10 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
     * Whisper Small:
       * Model: [ales/whisper-small-belarusian](https://huggingface.co/ales/whisper-small-belarusian)
       * Demo: [ales/whisper-small-belarusian-demo](https://huggingface.co/spaces/ales/whisper-small-belarusian-demo)
-      * Code: [yks72p/whisper-finetuning-be](https://github.com/yks72p/whisper-finetuning-be)
+      * Code: [navalnica/whisper-finetuning-be](https://github.com/navalnica/whisper-finetuning-be)
     * Whisper Base:
       * Model: [ales/whisper-base-belarusian](https://huggingface.co/ales/whisper-base-belarusian)
-      * Code: [yks72p/whisper-finetuning-be](https://github.com/yks72p/whisper-finetuning-be)
+      * Code: [navalnica/whisper-finetuning-be](https://github.com/navalnica/whisper-finetuning-be)
     
 * Nvidia NeMo models:
   * [nvidia/stt_be_conformer_ctc_large](https://huggingface.co/nvidia/stt_be_conformer_ctc_large)
