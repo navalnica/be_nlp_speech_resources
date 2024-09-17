@@ -22,6 +22,7 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
   * Whisper models fine-tuned on Belarusian Common Voice 11 dataset:
     * Whisper Small:
       * Model: [ales/whisper-small-belarusian](https://huggingface.co/ales/whisper-small-belarusian)
+      * test WER on CommonVoice11: `6.79`
       * Demo: [ales/whisper-small-belarusian-demo](https://huggingface.co/spaces/ales/whisper-small-belarusian-demo)
       * Code: [navalnica/whisper-finetuning-be](https://github.com/navalnica/whisper-finetuning-be)
     * Whisper Base:
@@ -30,7 +31,12 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
     
 * Nvidia NeMo models:
   * [nvidia/stt_be_conformer_ctc_large](https://huggingface.co/nvidia/stt_be_conformer_ctc_large)
+    * [huggingface self-reported metric] test WER on CommonVoice10: `4.8`
   * [nvidia/stt_be_conformer_transducer_large](https://huggingface.co/nvidia/stt_be_conformer_transducer_large)
+    * [huggingface self-reported metric] test WER on CommonVoice10: `3.8`
+  * [nvidia/stt_be_fastconformer_hybrid_large_pc](https://huggingface.co/nvidia/stt_be_fastconformer_hybrid_large_pc)
+    * [huggingface self-reported metric] test WER on CommonVoice12: `2.72`
+    * [huggingface self-reported metric] test WER P&C CommonVoice12: `3.87`
  
 * ESPnet:
   * [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm)
