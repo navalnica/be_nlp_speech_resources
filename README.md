@@ -58,14 +58,16 @@ Model comparisons grouped by dataset. TODO
 
 ## 📢💡 Implementations
 
-* CoquiAI implementations
-  * [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts). GlowTTS + HifiGan
-    * [Code](https://github.com/jhlfrfufyfn/bel-tts)
-    * [Model](https://huggingface.co/jhlfrfufyfn/bel-tts)
-    * [Demo on HuggingFace](https://huggingface.co/spaces/jhlfrfufyfn/bel-tts)
-    * [Demo on a custom web-page](https://nikuchin.fun/tts). The source code for the demo page: [here](https://github.com/jhlfrfufyfn/bel-tts-server)
-  * [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts). CoquiAI implementation by Yurii Paniv (@robinhad).<br>
-    Original repo & models were deleted - only fork is available now
+### CoquiAI implementations
+
+* official CoquiAI contains [recipe for Belarusian](https://github.com/coqui-ai/TTS/blob/dev/recipes/bel-alex73/README.md)
+* [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts). GlowTTS + HifiGan
+  * [Code](https://github.com/jhlfrfufyfn/bel-tts)
+  * [Model](https://huggingface.co/jhlfrfufyfn/bel-tts)
+  * [Demo on HuggingFace](https://huggingface.co/spaces/jhlfrfufyfn/bel-tts)
+  * [Demo on a custom web-page](https://nikuchin.fun/tts). The source code for the demo page: [here](https://github.com/jhlfrfufyfn/bel-tts-server)
+* [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts). CoquiAI implementation by Yurii Paniv (@robinhad).<br>
+  Original repo & models were deleted - only fork is available now
 
 ---
 
