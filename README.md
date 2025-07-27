@@ -79,7 +79,7 @@ Model comparisons grouped by dataset. TODO
 
 ## 📝 - 📚 Datasets
 
-* [BelarusianGLUE](https://huggingface.co/datasets/maaxap/BelarusianGLUE)
+* BelarusianGLUE - [dataset](https://huggingface.co/datasets/maaxap/BelarusianGLUE), [paper](https://aclanthology.org/2025.acl-long.25/)
 * [oscar](https://huggingface.co/datasets/oscar)
 * [mc4](https://huggingface.co/datasets/mc4)
 * [poritski/YABC](https://github.com/poritski/YABC) - Эксперыментальны корпус беларускай мовы, ЭКБМ
