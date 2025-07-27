@@ -4,13 +4,24 @@ This repository contains links to Belarusian Natural Language and Speech Process
 
 It is inspired by similar project with Ukrainian Speech Processing resources: [egorsmkv/speech-recognition-uk](https://github.com/egorsmkv/speech-recognition-uk)
 
-### TODOs:
-* add detailed descriptions to each of list items
-* evaluate models on benchmarks and log their performance
+# 🧍‍♀️🧍 Communities and platforms:
+* say.by - [web page](say.by), [telegram](https://t.me/say_by)
+* [corpus.by](https://www.corpus.by)
+* [ssrlab.by](https://ssrlab.by)
+* [bnkorpus.info](https://bnkorpus.info)
+* [Belarus](https://github.com/Belarus) organization on github
+* [nlproc.by](https://github.com/nlprocby) community on github
 
-# 🎙 Speech-to-Text
+# 💬➡️📘 Speech-to-Text
 
-## 🎙💡 Implementations
+## 💬➡️📘 - 📚 Datasets
+
+* [Common Voice](https://commonvoice.mozilla.org/en/datasets). Speech recognition dataset
+* Dataset from [knihi.com](https://knihi.com/none/Korpus_bielaruskaha_maulennia_dla_trenirouki_niejronnych_sietak_zip.html). TODO: what is the type of dataset?
+* [google/fleurs](https://huggingface.co/datasets/google/fleurs/viewer/be_by/train)
+* ssrlab: TODO. Speech recognition dataset
+
+## 💬➡️📘 - 🚀 Models
 
 * wav2vec2 trained on Common Voice 8 + kenlm language model trained on Common Voice 8:
   * Model: [ales/wav2vec2-cv-be](https://huggingface.co/ales/wav2vec2-cv-be)
@@ -41,22 +52,15 @@ It is inspired by similar project with Ukrainian Speech Processing resources: [e
 * ESPnet:
   * [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm)
 
-## 🎙📊 Benchmarks
+## 💬➡️📘 - 🥇 Benchmarks
 
 Model comparisons grouped by dataset. TODO
 
-## 🎙📚 Datasets
-
-* [Common Voice](https://commonvoice.mozilla.org/en/datasets). Speech recognition dataset
-* Dataset from [knihi.com](https://knihi.com/none/Korpus_bielaruskaha_maulennia_dla_trenirouki_niejronnych_sietak_zip.html). TODO: what is the type of dataset?
-* [google/fleurs](https://huggingface.co/datasets/google/fleurs/viewer/be_by/train)
-* ssrlab: TODO. Speech recognition dataset
-
 ------
 
-# 📢 Text-to-Speech
+# 📘➡️💬 Text-to-Speech
 
-## 📢💡 Implementations
+## 📘➡️💬 - 🚀 Models
 
 ### CoquiAI implementations
 
@@ -73,7 +77,22 @@ Model comparisons grouped by dataset. TODO
 
 # 📝 NLP
 
-## POS-tagging
+## 📝 - 📚 Datasets
+
+* [BelarusianGLUE](https://huggingface.co/datasets/maaxap/BelarusianGLUE)
+* [oscar](https://huggingface.co/datasets/oscar)
+* [mc4](https://huggingface.co/datasets/mc4)
+* [poritski/YABC](https://github.com/poritski/YABC) - Эксперыментальны корпус беларускай мовы, ЭКБМ
+* [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) - Grammar Database of Belarusian language
+* [tsimafeip/Translator](https://github.com/tsimafeip/Translator) - Dataset with russian-belarusian translation pairs
+* Universal dependencies dataset:
+  * [Page](https://universaldependencies.org/treebanks/be_hse/index.html)
+  * [GitHub Repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
+* [Tatoeba Belarusian sentences](https://tatoeba.org/en/sentences/show_all_in/bel/none)
+
+## 📝 - 🚀 Models
+
+### POS-tagging
 * [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos)
 * [stanfordnlp/stanza-be](https://huggingface.co/stanfordnlp/stanza-be)
 * [poritski/YABC_Tagger](https://github.com/poritski/YABC_Tagger). Rule-based POS-tagger and lemmatizer.<br>
@@ -89,33 +108,10 @@ Model comparisons grouped by dataset. TODO
   * suffix table calculation script is not ported from Perl to C++
   * code uses Boost libarary  
   
-## Other
+### Other
 * [pkasila/bel-sklony](https://github.com/pkasila/bel-sklony) - web page with Belarusian nouns declension. Demo: [sklony.pkasila.net](https://sklony.pkasila.net/)
 
-## Masked Language Modeling
+### Masked Language Modeling
 * [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
 
-## 📝📚 Datasets
 
-* [oscar](https://huggingface.co/datasets/oscar)
-* [mc4](https://huggingface.co/datasets/mc4)
-* [poritski/YABC](https://github.com/poritski/YABC) - Эксперыментальны корпус беларускай мовы, ЭКБМ
-* [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) - Grammar Database of Belarusian language
-* [tsimafeip/Translator](https://github.com/tsimafeip/Translator) - Dataset with russian-belarusian translation pairs
-* Universal dependencies dataset:
-  * [Page](https://universaldependencies.org/treebanks/be_hse/index.html)
-  * [GitHub Repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
-* [Tatoeba Belarusian sentences](https://tatoeba.org/en/sentences/show_all_in/bel/none)
-
----
-
-# 🧍‍♀️🧍 Communities and platforms:
-* [corpus.by](https://www.corpus.by)
-* [ssrlab.by](https://ssrlab.by)
-* [bnkorpus.info](https://bnkorpus.info)
-* [Belarus](https://github.com/Belarus) organization on github
-* [nlproc.by](https://github.com/nlprocby) community on github
-
----
-# 🦔 Unsorted
-* nothing for now
