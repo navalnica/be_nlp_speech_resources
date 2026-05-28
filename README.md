@@ -109,7 +109,11 @@ Model comparisons grouped by dataset. TODO
   * code uses Boost libarary  
   
 ### Other
-* [pkasila/bel-sklony](https://github.com/pkasila/bel-sklony) - web page with Belarusian nouns declension. Demo: [sklony.pkasila.net](https://sklony.pkasila.net/)
+
+* [alesdrobysh/belmorph](https://github.com/alesdrobysh/belmorph) -
+  fast Belarusian morphological analyzer, inflection, and lexeme generation for TypeScript.
+  Demo - [alesdrobysh.github.io/belmorph](https://alesdrobysh.github.io/belmorph).
+* [pkasila/bel-sklony](https://github.com/pkasila/bel-sklony) - web page with Belarusian nouns declension. Demo - [sklony.pkasila.net](https://sklony.pkasila.net/)
 
 ### Masked Language Modeling
 * [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
