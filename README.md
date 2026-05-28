@@ -4,9 +4,9 @@ A curated list of Belarusian Natural Language and Speech Processing resources, d
 
 Inspired by [egorsmkv/speech-recognition-uk](https://github.com/egorsmkv/speech-recognition-uk).
 
+<!-- omit from toc -->
 ### Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [🤝 Contributing](#-contributing)
 - [🏡 Communities and platforms](#-communities-and-platforms)
 - [📚 Datasets](#-datasets)
