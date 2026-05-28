@@ -54,7 +54,7 @@ Contributions are very welcome! Please open a pull request to add missing resour
 | [openai/whisper](https://github.com/openai/whisper) | - | Original Whisper models from OpenAI |
 | [nvidia/stt_be_conformer_ctc_large](https://huggingface.co/nvidia/stt_be_conformer_ctc_large) | WER `4.8` on test split of CV10 | NVIDIA NeMo Conformer-CTC |
 | [nvidia/stt_be_conformer_transducer_large](https://huggingface.co/nvidia/stt_be_conformer_transducer_large) | WER `3.8` on test split of CV10 | NVIDIA NeMo Conformer-Transducer |
-| [nvidia/stt_be_fastconformer_hybrid_large_pc](https://huggingface.co/nvidia/stt_be_fastconformer_hybrid_large_pc) | WER `2.72` on test split of CV12, WER P&C `3.87` on test split of CV12 | NVIDIA NeMo FastConformer Hybrid |
+| [nvidia/stt_be_fastconformer_hybrid_large_pc](https://huggingface.co/nvidia/stt_be_fastconformer_hybrid_large_pc) | WER `2.72` on test split of CV12<br>WER P&C `3.87` on test split of CV12 | NVIDIA NeMo FastConformer Hybrid |
 | [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm) | - | ESPnet BLSTM trained on Common Voice |
 
 ### 🤖 Text-to-Speech Models
