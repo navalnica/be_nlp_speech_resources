@@ -1,121 +1,78 @@
 # Belarusian NLP and Speech Processing resources
 
-This repository contains links to Belarusian Natural Language and Speech Processing resources and datasets.<br>
+A curated list of Belarusian Natural Language and Speech Processing resources, datasets, and models.
 
-It is inspired by similar project with Ukrainian Speech Processing resources: [egorsmkv/speech-recognition-uk](https://github.com/egorsmkv/speech-recognition-uk)
+Inspired by [egorsmkv/speech-recognition-uk](https://github.com/egorsmkv/speech-recognition-uk).
 
-# 🧍‍♀️🧍 Communities and platforms:
-* say.by - [web page](say.by), [telegram](https://t.me/say_by)
-* [corpus.by](https://www.corpus.by)
-* [ssrlab.by](https://ssrlab.by)
-* [bnkorpus.info](https://bnkorpus.info)
-* [Belarus](https://github.com/Belarus) organization on github
-* [nlproc.by](https://github.com/nlprocby) community on github
+<!-- omit from toc -->
+### Table of Contents
 
-# 💬➡️📘 Speech-to-Text
+- [🤝 Contributing](#-contributing)
+- [🏡 Communities and platforms](#-communities-and-platforms)
+- [📚 Datasets](#-datasets)
+- [🎤 Speech-to-Text Models](#-speech-to-text-models)
+- [🤖 Text-to-Speech Models](#-text-to-speech-models)
+- [📝 NLP Models and Tools](#-nlp-models-and-tools)
 
-## 💬➡️📘 - 📚 Datasets
+### 🤝 Contributing
 
-* [Common Voice](https://commonvoice.mozilla.org/en/datasets). Speech recognition dataset
-* Dataset from [knihi.com](https://knihi.com/none/Korpus_bielaruskaha_maulennia_dla_trenirouki_niejronnych_sietak_zip.html). TODO: what is the type of dataset?
-* [google/fleurs](https://huggingface.co/datasets/google/fleurs/viewer/be_by/train)
-* ssrlab: TODO. Speech recognition dataset
+Contributions are very welcome! Please open a pull request to add missing resources, update entries, or fix any of the `TODO`s below. Help keep this list current.
 
-## 💬➡️📘 - 🚀 Models
+### 🏡 Communities and platforms
 
-* wav2vec2 trained on Common Voice 8 + kenlm language model trained on Common Voice 8:
-  * Model: [ales/wav2vec2-cv-be](https://huggingface.co/ales/wav2vec2-cv-be)
-  * Demo: [ales/wav2vec2-cv-be-lm](https://huggingface.co/spaces/ales/wav2vec2-cv-be-lm)
-  * Code: [navalnica/wav2vec2-belarusian](https://github.com/navalnica/wav2vec2-belarusian)
+- say.by — [Telegram](https://t.me/say_by)
+- [corpus.by](https://www.corpus.by)
+- [ssrlab.by](https://ssrlab.by)
+- [bnkorpus.info](https://bnkorpus.info)
+- [Belarus](https://github.com/Belarus) — GitHub organization
+- [nlproc.by](https://github.com/nlprocby) — GitHub community
 
-* whisper:
-  * original [openai/whisper](https://github.com/openai/whisper) models
-  * Whisper models fine-tuned on Belarusian Common Voice 11 dataset:
-    * Whisper Small:
-      * Model: [ales/whisper-small-belarusian](https://huggingface.co/ales/whisper-small-belarusian)
-      * test WER on CommonVoice11: `6.79`
-      * Demo: [ales/whisper-small-belarusian-demo](https://huggingface.co/spaces/ales/whisper-small-belarusian-demo)
-      * Code: [navalnica/whisper-finetuning-be](https://github.com/navalnica/whisper-finetuning-be)
-    * Whisper Base:
-      * Model: [ales/whisper-base-belarusian](https://huggingface.co/ales/whisper-base-belarusian)
-      * Code: [navalnica/whisper-finetuning-be](https://github.com/navalnica/whisper-finetuning-be)
-    
-* Nvidia NeMo models:
-  * [nvidia/stt_be_conformer_ctc_large](https://huggingface.co/nvidia/stt_be_conformer_ctc_large)
-    * [huggingface self-reported metric] test WER on CommonVoice10: `4.8`
-  * [nvidia/stt_be_conformer_transducer_large](https://huggingface.co/nvidia/stt_be_conformer_transducer_large)
-    * [huggingface self-reported metric] test WER on CommonVoice10: `3.8`
-  * [nvidia/stt_be_fastconformer_hybrid_large_pc](https://huggingface.co/nvidia/stt_be_fastconformer_hybrid_large_pc)
-    * [huggingface self-reported metric] test WER on CommonVoice12: `2.72`
-    * [huggingface self-reported metric] test WER P&C CommonVoice12: `3.87`
- 
-* ESPnet:
-  * [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm)
+### 📚 Datasets
 
-## 💬➡️📘 - 🥇 Benchmarks
+| Name | Type | Notes |
+|------|------|-------|
+| [Common Voice](https://mozilladatacollective.com/datasets?locale=be) | STT | Mozilla multilingual speech corpus |
+| [google/fleurs](https://huggingface.co/datasets/google/fleurs/viewer/be_by/train) | STT | |
+| [knihi.com — Корпус беларускага маўлення](https://knihi.com/none/Korpus_bielaruskaha_maulennia_dla_trenirouki_niejronnych_sietak_zip.html) | STT | Corpus for neural network training. TODO: confirm dataset type |
+| ssrlab | STT | TODO |
+| [maaxap/BelarusianGLUE](https://huggingface.co/datasets/maaxap/BelarusianGLUE) | NLP | [Paper](https://aclanthology.org/2025.acl-long.25/) |
+| [oscar-corpus/oscar](https://huggingface.co/datasets/oscar-corpus/oscar) | NLP | |
+| [allenai/c4](https://huggingface.co/datasets/allenai/c4) | NLP | |
+| [poritski/YABC](https://github.com/poritski/YABC) | NLP | Эксперыментальны корпус беларускай мовы (ЭКБМ) |
+| [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) | NLP | Grammar Database of Belarusian language |
+| [tsimafeip/Translator](https://github.com/tsimafeip/Translator) | NLP | Russian-Belarusian translation pairs |
+| [UniversalDependencies/UD_Belarusian-HSE](https://github.com/UniversalDependencies/UD_Belarusian-HSE) | NLP | Universal Dependencies treebank. [Project page](https://universaldependencies.org/treebanks/be_hse/index.html) |
+| [Tatoeba — Belarusian](https://tatoeba.org/en/sentences/show_all_in/bel/none) | NLP | Belarusian sentences in Tatoeba |
 
-Model comparisons grouped by dataset. TODO
+### 🎤 Speech-to-Text Models
 
-------
+| Name | Metrics | Notes |
+|------|---------|-------|
+| [ales/wav2vec2-cv-be](https://huggingface.co/ales/wav2vec2-cv-be) | WER `12.4` on test split of CV8 | wav2vec2 + kenlm language model, trained on Common Voice 8. [Demo](https://huggingface.co/spaces/ales/wav2vec2-cv-be-lm), [Code](https://github.com/navalnica/wav2vec2-belarusian) |
+| [ales/whisper-small-belarusian](https://huggingface.co/ales/whisper-small-belarusian) | WER `6.79` on test split of CV11 | Whisper Small fine-tuned on Common Voice 11. [Demo](https://huggingface.co/spaces/ales/whisper-small-belarusian-demo), [Code](https://github.com/navalnica/whisper-finetuning-be) |
+| [ales/whisper-base-belarusian](https://huggingface.co/ales/whisper-base-belarusian) | WER `12.207` on validation split of CV11 | Whisper Base fine-tuned on Common Voice 11. [Code](https://github.com/navalnica/whisper-finetuning-be) |
+| [openai/whisper](https://github.com/openai/whisper) | - | Original Whisper models from OpenAI |
+| [nvidia/stt_be_conformer_ctc_large](https://huggingface.co/nvidia/stt_be_conformer_ctc_large) | WER `4.8` on test split of CV10 | NVIDIA NeMo Conformer-CTC |
+| [nvidia/stt_be_conformer_transducer_large](https://huggingface.co/nvidia/stt_be_conformer_transducer_large) | WER `3.8` on test split of CV10 | NVIDIA NeMo Conformer-Transducer |
+| [nvidia/stt_be_fastconformer_hybrid_large_pc](https://huggingface.co/nvidia/stt_be_fastconformer_hybrid_large_pc) | WER `2.72` on test split of CV12<br>WER P&C `3.87` on test split of CV12 | NVIDIA NeMo FastConformer Hybrid |
+| [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm) | - | ESPnet BLSTM trained on Common Voice |
 
-# 📘➡️💬 Text-to-Speech
+### 🤖 Text-to-Speech Models
 
-## 📘➡️💬 - 🚀 Models
+| Name | Metrics | Notes |
+|------|---------|-------|
+| [coqui-ai/TTS](https://github.com/coqui-ai/TTS/blob/dev/recipes/bel-alex73/README.md) | - | Official CoquiAI Belarusian recipe |
+| [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts) | - | GlowTTS + HifiGAN. [Model](https://huggingface.co/jhlfrfufyfn/bel-tts), [HF demo](https://huggingface.co/spaces/jhlfrfufyfn/bel-tts), [web server source code](https://github.com/jhlfrfufyfn/bel-tts-server) |
+| [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts) | - | CoquiAI implementation by Yurii Paniv ([@robinhad](https://github.com/robinhad)). Original repo and models deleted — only fork remains |
 
-### CoquiAI implementations
+### 📝 NLP Models and Tools
 
-* official CoquiAI contains [recipe for Belarusian](https://github.com/coqui-ai/TTS/blob/dev/recipes/bel-alex73/README.md)
-* [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts). GlowTTS + HifiGan
-  * [Code](https://github.com/jhlfrfufyfn/bel-tts)
-  * [Model](https://huggingface.co/jhlfrfufyfn/bel-tts)
-  * [Demo on HuggingFace](https://huggingface.co/spaces/jhlfrfufyfn/bel-tts)
-  * [Demo on a custom web-page](https://nikuchin.fun/tts). The source code for the demo page: [here](https://github.com/jhlfrfufyfn/bel-tts-server)
-* [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts). CoquiAI implementation by Yurii Paniv (@robinhad).<br>
-  Original repo & models were deleted - only fork is available now
-
----
-
-# 📝 NLP
-
-## 📝 - 📚 Datasets
-
-* BelarusianGLUE - [dataset](https://huggingface.co/datasets/maaxap/BelarusianGLUE), [paper](https://aclanthology.org/2025.acl-long.25/)
-* [oscar](https://huggingface.co/datasets/oscar)
-* [mc4](https://huggingface.co/datasets/mc4)
-* [poritski/YABC](https://github.com/poritski/YABC) - Эксперыментальны корпус беларускай мовы, ЭКБМ
-* [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) - Grammar Database of Belarusian language
-* [tsimafeip/Translator](https://github.com/tsimafeip/Translator) - Dataset with russian-belarusian translation pairs
-* Universal dependencies dataset:
-  * [Page](https://universaldependencies.org/treebanks/be_hse/index.html)
-  * [GitHub Repository](https://github.com/UniversalDependencies/UD_Belarusian-HSE)
-* [Tatoeba Belarusian sentences](https://tatoeba.org/en/sentences/show_all_in/bel/none)
-
-## 📝 - 🚀 Models
-
-### POS-tagging
-* [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos)
-* [stanfordnlp/stanza-be](https://huggingface.co/stanfordnlp/stanza-be)
-* [poritski/YABC_Tagger](https://github.com/poritski/YABC_Tagger). Rule-based POS-tagger and lemmatizer.<br>
-  Written in Perl. 
-  Uses [poritski/YABC](https://github.com/poritski/YABC) as a Grammar base (?)
-* [volchek/beltagger](https://github.com/volchek/beltagger).
-  An improved version of [poritski/YABC_Tagger](https://github.com/poritski/YABC_Tagger) rule-based POS-tagger and lemmatizer.<br>
-  Cross-platform, written in C++.<br>
-  Known issues:
-  * requires input data to be incoded in Windows-1251, does not support UTF-8;
-  * tagset is not fully-compatible with BNKorpus's tagset and grammar base
-  * grammar base used is not full enough. [Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) is a better paradigms source but is not incorporated yet
-  * suffix table calculation script is not ported from Perl to C++
-  * code uses Boost libarary  
-  
-### Other
-
-* [alesdrobysh/belmorph](https://github.com/alesdrobysh/belmorph) -
-  fast Belarusian morphological analyzer, inflection, and lexeme generation for TypeScript.
-  Demo - [alesdrobysh.github.io/belmorph](https://alesdrobysh.github.io/belmorph).
-* [pkasila/bel-sklony](https://github.com/pkasila/bel-sklony) - web page with Belarusian nouns declension. Demo - [sklony.pkasila.net](https://sklony.pkasila.net/)
-
-### Masked Language Modeling
-* [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian)
-
-
+| Name | Topic | Notes |
+|------|-------|-------|
+| [alesdrobysh/belmorph](https://github.com/alesdrobysh/belmorph) | Morphological analysis | Fast TypeScipt morphological analyzer, inflection, and lexeme generator. [Demo, a really beautiful one!](https://alesdrobysh.github.io/belmorph) |
+| [pkasila/bel-sklony](https://github.com/pkasila/bel-sklony) | Declension (вызначэнне меснага склону) | Belarusian nouns declension (месны склон only) web page. [Demo](https://sklony.pkasila.net/) |
+| [poritski/YABC_Tagger](https://github.com/poritski/YABC_Tagger) | POS-tagging, Lemmatization | Rule-based. Perl. Uses [poritski/YABC](https://github.com/poritski/YABC) as grammar base |
+| [volchek/beltagger](https://github.com/volchek/beltagger) | POS-tagging, Lemmatization | Improved C++ port of [poritski/YABC_Tagger](https://github.com/poritski/YABC_Tagger). Cross-platform. Known issues: requires Windows-1251 input (no UTF-8), tagset not fully compatible with BNKorpus, incomplete grammar base ([Belarus/GrammarDB](https://github.com/Belarus/GrammarDB) not yet incorporated), suffix table calculation not ported from Perl, depends on Boost |
+| [stanfordnlp/stanza-be](https://huggingface.co/stanfordnlp/stanza-be) | POS-tagging | Stanza framework |
+| [KoichiYasuoka/roberta-small-belarusian-upos](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian-upos) | POS-tagging | roberta model |
+| [KoichiYasuoka/roberta-small-belarusian](https://huggingface.co/KoichiYasuoka/roberta-small-belarusian) | Masked Language Modeling | roberta model |
