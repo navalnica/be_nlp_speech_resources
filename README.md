@@ -4,7 +4,7 @@ A curated list of Belarusian Natural Language and Speech Processing resources, d
 
 Inspired by [egorsmkv/speech-recognition-uk](https://github.com/egorsmkv/speech-recognition-uk).
 
-#### Table of Contents
+### Table of Contents
 
 - [Table of Contents](#table-of-contents)
 - [🤝 Contributing](#-contributing)
@@ -14,11 +14,11 @@ Inspired by [egorsmkv/speech-recognition-uk](https://github.com/egorsmkv/speech-
 - [🤖 Text-to-Speech Models](#-text-to-speech-models)
 - [📝 NLP Models and Tools](#-nlp-models-and-tools)
 
-#### 🤝 Contributing
+### 🤝 Contributing
 
 Contributions are very welcome! Please open a pull request to add missing resources, update entries, or fix any of the `TODO`s below. Help keep this list current.
 
-#### 🏡 Communities and platforms
+### 🏡 Communities and platforms
 
 - say.by — [Telegram](https://t.me/say_by)
 - [corpus.by](https://www.corpus.by)
@@ -27,7 +27,7 @@ Contributions are very welcome! Please open a pull request to add missing resour
 - [Belarus](https://github.com/Belarus) — GitHub organization
 - [nlproc.by](https://github.com/nlprocby) — GitHub community
 
-#### 📚 Datasets
+### 📚 Datasets
 
 | Name | Type | Notes |
 |------|------|-------|
@@ -44,7 +44,7 @@ Contributions are very welcome! Please open a pull request to add missing resour
 | [UniversalDependencies/UD_Belarusian-HSE](https://github.com/UniversalDependencies/UD_Belarusian-HSE) | NLP | Universal Dependencies treebank. [Project page](https://universaldependencies.org/treebanks/be_hse/index.html) |
 | [Tatoeba — Belarusian](https://tatoeba.org/en/sentences/show_all_in/bel/none) | NLP | Belarusian sentences in Tatoeba |
 
-#### 🎤 Speech-to-Text Models
+### 🎤 Speech-to-Text Models
 
 | Name | Metrics | Notes |
 |------|---------|-------|
@@ -57,7 +57,7 @@ Contributions are very welcome! Please open a pull request to add missing resour
 | [nvidia/stt_be_fastconformer_hybrid_large_pc](https://huggingface.co/nvidia/stt_be_fastconformer_hybrid_large_pc) | WER `2.72` on CV12, P&C WER `3.87` on CV12 | NVIDIA NeMo FastConformer Hybrid |
 | [espnet/belarusian_commonvoice_blstm](https://huggingface.co/espnet/belarusian_commonvoice_blstm) | - | ESPnet BLSTM trained on Common Voice |
 
-#### 🤖 Text-to-Speech Models
+### 🤖 Text-to-Speech Models
 
 | Name | Metrics | Notes |
 |------|---------|-------|
@@ -65,7 +65,7 @@ Contributions are very welcome! Please open a pull request to add missing resour
 | [jhlfrfufyfn/bel-tts](https://github.com/jhlfrfufyfn/bel-tts) | - | GlowTTS + HifiGAN. [Model](https://huggingface.co/jhlfrfufyfn/bel-tts) · [HF demo](https://huggingface.co/spaces/jhlfrfufyfn/bel-tts) · [Web demo](https://nikuchin.fun/tts) ([source](https://github.com/jhlfrfufyfn/bel-tts-server)) |
 | [alex73/belarusian-tts](https://github.com/alex73/belarusian-tts) | - | CoquiAI implementation by Yurii Paniv ([@robinhad](https://github.com/robinhad)). Original repo and models deleted — only fork remains |
 
-#### 📝 NLP Models and Tools
+### 📝 NLP Models and Tools
 
 | Name | Topic | Notes |
 |------|-------|-------|
